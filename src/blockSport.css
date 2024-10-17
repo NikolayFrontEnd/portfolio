@@ -1,0 +1,68 @@
+.blockSport {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Размещаем блоки по вертикали */
+  align-items: center; /* Центрируем дочерние элементы по горизонтали */
+  margin-top: 20px;
+  gap: 20px; /* Добавляем отступ между блоками */
+}
+#dark .textSport1{
+  color: #d0d0d0;
+} 
+.videoSport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Центрируем блок, чтобы было равное пространство слева и справа */
+  margin-bottom: 50px;
+}
+  
+  .textSport1 {
+    font-size: 1.5rem; /* Крупный текст, размер можно изменить для адаптации */
+    font-weight: 700; /* Жирный текст */
+    line-height: 1.8; /* Увеличенные отступы между строками для удобства чтения */
+    margin-bottom: 1.5rem; /* Отступ снизу для разделения текста на блоки */
+    color: #333; /* Темно-серый цвет, более мягкий для глаз по сравнению с черным */
+    text-align: left; /* Выравнивание текста по левому краю */
+    letter-spacing: 0.5px; /* Легкое увеличение расстояния между буквами для улучшения читаемости */
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 50px;
+    text-align: justify;
+  }
+  .textSport1 div {
+    text-indent: 50px; /* Отступ в начале абзаца */
+  }
+
+  #dark .seeV{
+    color: #ccc;
+  }
+
+  .seeV{
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    line-height: 1.8; 
+  }
+
+  .Exit {
+    background-color: #f0f0f0; /* Светло-серый фон */
+    color: #333; /* Темно-серый текст для контраста */
+    border: 2px solid #ccc; /* Граница чуть темнее фона */
+    border-radius: 8px; /* Закругленные края для современного вида */
+    padding: 10px 20px; /* Внутренний отступ для удобства */
+    font-size: 1rem; /* Размер шрифта для читаемости */
+    font-weight: 500; /* Чуть более жирный текст */
+    cursor: pointer; /* Изменение курсора при наведении */
+    transition: all 0.3s ease; /* Плавный переход для эффектов */
+    margin-bottom: 50px;
+  }
+  
+  .Exit:hover {
+    background-color: #e0e0e0; /* Темнее при наведении */
+    border-color: #bbb; /* Темнее граница при наведении */
+  }
+  
+  .Exit:active {
+    background-color: #d0d0d0; /* Еще темнее при нажатии */
+    transform: scale(0.98); /* Легкое уменьшение при клике для эффекта нажатия */
+  }
